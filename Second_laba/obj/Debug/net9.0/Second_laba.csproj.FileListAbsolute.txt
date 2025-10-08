@@ -1,0 +1,14 @@
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\bin\Debug\net9.0\Second_laba.exe
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\bin\Debug\net9.0\Second_laba.deps.json
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\bin\Debug\net9.0\Second_laba.runtimeconfig.json
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\bin\Debug\net9.0\Second_laba.dll
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\bin\Debug\net9.0\Second_laba.pdb
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.AssemblyInfoInputs.cache
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.AssemblyInfo.cs
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.csproj.CoreCompileInputs.cache
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.dll
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\refint\Second_laba.dll
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.pdb
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.genruntimeconfig.cache
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\ref\Second_laba.dll
