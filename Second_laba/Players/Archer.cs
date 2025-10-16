@@ -19,11 +19,6 @@ public sealed class Archer(string name)
     private void GetExperience(int exp)
     {
         _expirience += exp;
-        LevelUp();
-    }
-
-    private void LevelUp()
-    {
         for (var i = 0; i < _expirience % 30; i++)
         {
             _level += 0.2;

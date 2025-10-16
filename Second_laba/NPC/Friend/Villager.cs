@@ -1,6 +1,6 @@
 namespace Second_laba.NPC.Friend;
 
-public class Villager: FriednlyNpc
+public sealed class Villager: FriednlyNpc
 {
     public Villager()
     {

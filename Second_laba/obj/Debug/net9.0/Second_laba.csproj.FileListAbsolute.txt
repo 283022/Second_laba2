@@ -12,3 +12,4 @@ C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\refint\Sec
 C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.pdb
 C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.genruntimeconfig.cache
 C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\ref\Second_laba.dll
+C:\Users\Artem\RiderProjects\Second_laba\Second_laba\obj\Debug\net9.0\Second_laba.sourcelink.json

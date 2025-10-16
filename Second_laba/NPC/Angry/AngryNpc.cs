@@ -14,13 +14,13 @@ public abstract class AngryNpc : Npc
 
     protected abstract double GenerateDamage();
 
-    public void Attach(Archer player)
+    public virtual void Attach(Archer player)
     {
         double damage = Random.Shared.Next(15, 35);
         player.GetDamage(this, damage);
     }
 
-    public void GetDamage(Archer player, double damage)
+    public virtual void GetDamage(Archer player, double damage)
     {
         Health = double.Max(0, Health - damage);
     }

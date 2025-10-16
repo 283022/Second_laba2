@@ -1,3 +1,5 @@
+using Second_laba.Logger;
+using Second_laba.Logger.Interfaces;
 using Second_laba.NPC;
 using Second_laba.NPC.Angry;
 using Second_laba.NPC.Friend;
@@ -7,8 +9,18 @@ namespace Second_laba;
 
 public class Game
 {
+    
+    private readonly ILoggerWriter[] _log = new ILoggerWriter[]{new LoggerConsole(),new LoggerFile("log.txt")};
 
-    private readonly Logger.Logger _log = new();
+    private void Log(string message)
+    {
+        foreach (var forLoggerIn in _log)
+            
+        {
+            forLoggerIn.Log(message);
+        }
+    }
+    
     //Генерируется волки и возвращается указатель на список из волков
     private Npc[] GenerateNpc()
     {
@@ -34,34 +46,34 @@ public class Game
     //боевка между агрессивным нпс и героем
     private void Fighting(AngryNpc npc, Archer hero)
     {
-        _log.Log($"Hp hero is {hero.HealthPoints:F2} ");
-        _log.Log($"Hp {npc.Name} is {npc.HealthPoints:F2} ");
+        Log($"Hp hero is {hero.HealthPoints:F2} ");
+        Log($"Hp {npc.Name} is {npc.HealthPoints:F2} ");
 
-        _log.Log($"{hero.Name} attach {npc.Name}");
+        Log($"{hero.Name} attach {npc.Name}");
         hero.Attach(npc);
 
         if (npc.IsDead())
         {
-            _log.Log($"{npc.Name} is Dead");
+            Log($"{npc.Name} is Dead");
             hero.Loot(npc);
         }
         else
         {
-            _log.Log($"{npc.Name} attach {hero.Name}");
+            Log($"{npc.Name} attach {hero.Name}");
             npc.Attach(hero);
         }
     }
 
     public void Run_Game()
     {
-        _log.Log("");
-        _log.Log("Starting game");
+        Log("");
+        Log("Starting game");
         var hero = new Archer("hero");
         var npcs = GenerateNpc();
-        _log.Log($"NPC in this round =  {npcs.Length}");
+        Log($"NPC in this round =  {npcs.Length}");
         foreach (var npc in npcs)
         {
-            _log.Log(npc.Name);
+            Log(npc.Name);
 
             if (npc is FriednlyNpc friednly)
             {
@@ -77,7 +89,7 @@ public class Game
 
             if (!hero.IsDeath()) continue;
             
-            _log.Log($"{hero.Name} is Dead");
+            Log($"{hero.Name} is Dead");
             break;
         }
         

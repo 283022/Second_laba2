@@ -2,7 +2,7 @@ using Second_laba.Struct;
 
 namespace Second_laba.NPC.Angry;
 
-public class Bandit : AngryNpc
+public sealed class Bandit : AngryNpc
 {
     public Bandit()
     {
