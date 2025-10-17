@@ -1,4 +1,3 @@
-using Second_laba.Players;
 using Second_laba.Struct;
 
 namespace Second_laba.NPC.Angry;

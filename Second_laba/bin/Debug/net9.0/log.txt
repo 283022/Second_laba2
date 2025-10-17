@@ -130,3 +130,27 @@ Hp Wolf is 37,00
 hero attach Wolf
 Wolf attach hero
 hero is Dead
+Starting game
+NPC in this round =  3
+Bandit
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 81,00 
+Hp Bandit is 89,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 57,00 
+Hp Bandit is 77,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 27,00 
+Hp Bandit is 67,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 10,00 
+Hp Bandit is 46,00 
+hero attach Bandit
+Bandit attach hero
+hero is Dead

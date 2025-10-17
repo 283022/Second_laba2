@@ -8,7 +8,8 @@ namespace Second_laba;
 
 public class Game
 {
-    private readonly AllLogers _logs = new AllLogers(); 
+    private readonly AllLogers _logs = new ([new LoggerConsole(Console.WriteLine)
+        , new LoggerFile("log.txt")]); 
     
     //Генерируется волки и возвращается указатель на список из волков
     private Npc[] GenerateNpc()

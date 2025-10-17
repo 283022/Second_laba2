@@ -32,7 +32,7 @@ public class LoggerFile: ILoggerWriter, ILoggerStorage
         if (CheckExistance(_filePath)) return;
         Console.WriteLine($"Now Logging File isn't exist: {_filePath} \n generate a new file?(y/n): ");
         var s = Console.ReadLine();
-        if (s == "y" || s == null)
+        if (s == null || s == "y")
         {
             GenerateFileByPath();
         }
