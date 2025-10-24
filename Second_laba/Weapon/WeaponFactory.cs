@@ -10,11 +10,6 @@ public static class WeaponFactory
         var damage = baseData.BaseDamage + Random.Shared.Next(-baseData.DamageVariation, baseData.DamageVariation + 1);
         var cost = baseData.BaseCost + Random.Shared.Next(-baseData.CostVariation, baseData.CostVariation + 1);
         
-        // Ограничиваем значения
-        damage = Math.Max(1, damage);
-        cost = Math.Max(1, cost);
-        
-        
         return baseData.Type.ToLower() switch
         {
             "bow" => new Bow("Bow", cost, damage),
