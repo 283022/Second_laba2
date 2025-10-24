@@ -1,12 +1,14 @@
 namespace Second_laba.Weapon;
 
-public class Sword : IWeapon
+public class Sword(string name, int cost, int baseDamage) : IWeapon
 {
-    private const int BaseDamage = 20;
-    public string Name => "Sword";
-    public int Cost => 200; 
+    private readonly int _baseDamage = baseDamage;
+    public string Name { get; } = name;
+    public int Cost { get; } = cost;
+    public int Damage { get; } = baseDamage;
+
     public double GenerateDamage()
     {
-        return BaseDamage * Random.Shared.NextDouble() * 1.5 + BaseDamage;
+        return _baseDamage * Random.Shared.NextDouble() * 1.5 + _baseDamage;
     }
 }

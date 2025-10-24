@@ -11,9 +11,8 @@ public sealed class Archer(string name)
 
     private double _level = 1;
     private double _health = 100.0;
-    private int _expirience = 0;
     private readonly double _basedamage = 1.5;
-    private double _goold = 0;
+    private double _gold;
     public string Name { get; private set; } = name;
     public double HealthPoints => _health;
     private IWeapon? _currentWeapon;
@@ -28,10 +27,10 @@ public sealed class Archer(string name)
         _currentWeapon = _inventory.GetWeapon(position);
     }
 
-    public void UseItemsFromInventory(int position)
+    /*public void UseItemsFromInventory(int position)
     {
         _inventory.UseItem(position, this);
-    }
+    }*/
 
     public void AddNewWeaponToInventory(IWeapon? weapon)
     {
@@ -69,19 +68,19 @@ public sealed class Archer(string name)
         foreach (var loot in loots)
         {
             _health += double.Min(loot.FoodValue + _health, 100);
-            _goold += loot.GooldValue;
+            _gold += loot.GooldValue;
         }
     }
 
     public void Loot(FriednlyNpc npc)
     {
         _health += double.Min(npc.HealthFor + _health, 100);
-        _goold += npc.GooldFor;
+        _gold += npc.GooldFor;
     }
 
-    public double GooldPlayer()
+    public double GoldPlayer()
     {
-        return _goold;
+        return _gold;
     }
     
     

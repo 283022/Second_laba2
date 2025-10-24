@@ -6,4 +6,5 @@ public interface IWeapon
 
     string Name { get; }
     int Cost { get; }
+    int Damage { get; }
 }

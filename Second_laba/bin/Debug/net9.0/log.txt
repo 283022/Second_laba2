@@ -154,3 +154,100 @@ Hp Bandit is 46,00
 hero attach Bandit
 Bandit attach hero
 hero is Dead
+Starting game
+NPC in this round =  3
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 82,00 
+Hp Bandit is 76,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 58,00 
+Hp Bandit is 40,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 36,00 
+Hp Bandit is 17,50 
+hero attach Bandit
+Bandit is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 117 | 4 - урон
+2. Staff | 149 | 8 - урон
+
+your gold is 27
+Input number items, would like to buy
+Starting game
+NPC in this round =  2
+Villager
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 235 | 12 - урон
+2. Sword | 205 | 7 - урон
+
+your gold is 5
+Input number items, would like to buy
+Starting game
+NPC in this round =  3
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 205 | 17 - урон
+2. Sword | 309 | 18 - урон
+
+your gold is 0
+Input number items, would like to buy
+2
+Bought not accepted
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 82,00 
+Hp Bandit is 79,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 52,00 
+Hp Bandit is 50,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 27,00 
+Hp Bandit is 19,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  3
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 66,00 
+Hp Wolf is 65,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 45,00 
+Hp Wolf is 34,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 19,00 
+Hp Wolf is 13,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 156 | 4 - урон
+2. Staff | 140 | 5 - урон
+
+your gold is 13
+Input number items, would like to buy

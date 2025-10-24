@@ -1,14 +1,16 @@
-using Second_laba.Players;
+
 using Second_laba.Weapon;
 
 namespace Second_laba.Items;
 
 public class Inventory(int size)
 {
-    private readonly List<Item> _items = [];
+    /*private readonly List<Item> _items = [];
+    */
     private readonly List<IWeapon?> _weapons = [];
-    public Item this[int position] => _items[position];
-    public bool AddNewItem(Item newItem)
+    public IWeapon? this[int position] => _weapons[position];
+    
+    /*public bool AddNewItem(Item newItem)
     {
         if (_items.Contains(newItem) || _items.Count >= size)
             return false;
@@ -25,6 +27,7 @@ public class Inventory(int size)
         _items.RemoveAt(position);
         return true;
     }
+    */
 
     public IWeapon? GetWeapon(int position)
     {
@@ -51,6 +54,7 @@ public class Inventory(int size)
     }
 
 
+    /*
     public bool RemoveItemFromPos(int position)
     {
         if (_items.Count < position)
@@ -59,13 +63,14 @@ public class Inventory(int size)
         _items.RemoveAt(position);
         return true;
     }
+    */
 
     public override string ToString()
     {
         var strokes = string.Empty;
-        foreach (var item in _items)
+        foreach (var weapon in _weapons)
         {
-            strokes += $"{item.Name},";
+            strokes += $"{weapon?.Name},";
         }
 
         return strokes;

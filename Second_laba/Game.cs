@@ -73,15 +73,21 @@ public class Game
             }
             
             //Вывод магазина на экран
-            _logs.Log("You wanna buy some Weapon or Itmes?(Y/N)");
-            var key = Console.ReadKey();
-            if (key.Key == ConsoleKey.Y)
+            _logs.Log("You wanna buy some Weapon or Items?(Y/N)");
+            var key = Console.ReadLine()?.ToLower();
+            if (key == "y")
             {
+                _logs.Log("");
                 _logs.Log(market.ToString());
+                _logs.Log("your gold is " + hero.GoldPlayer());
+                
                 _logs.Log("Input number items, would like to buy");
-                var keyNumber = Convert.ToInt32(Console.ReadKey());
-                var newWeapon = market.BuyWeapon(keyNumber, hero.GooldPlayer());
-                hero.AddNewWeaponToInventory(newWeapon);
+                
+                var keyNumber = Convert.ToInt32(Console.ReadLine()) - 1;
+                _logs.Log(keyNumber.ToString());
+                
+                var newWeapon = market.BuyWeapon(keyNumber, hero);
+                _logs.Log(newWeapon ? $"Bought was accepted" : $"Bought not accepted");
             }
             
             var angnpc = (AngryNpc)npc;
