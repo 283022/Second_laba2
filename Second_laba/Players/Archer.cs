@@ -22,9 +22,10 @@ public sealed class Archer(string name)
     }
 
     
-    public void GetCurrentWeapon(int position)
+    public bool GetCurrentWeapon(int position)
     {
         _currentWeapon = _inventory.GetWeapon(position);
+        return _currentWeapon != null;
     }
 
     /*public void UseItemsFromInventory(int position)

@@ -251,3 +251,61 @@ You wanna buy some Weapon or Items?(Y/N)
 
 your gold is 13
 Input number items, would like to buy
+Starting game
+NPC in this round =  2
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Input number weapon, would like to chose
+The weapon was not choose
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 82,00 
+Hp Bandit is 83,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 61,00 
+Hp Bandit is 65,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 37,00 
+Hp Bandit is 43,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 19,00 
+Hp Bandit is 16,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 111 | 11 - урон
+2. Staff | 182 | 4 - урон
+
+your gold is 90
+Input number items, would like to buy
+1
+Bought not accepted
+You wanna chose your weapon(Y/N)
+Hp hero is 571,39 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 545,39 
+Hp Wolf is 79,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 525,39 
+Hp Wolf is 61,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 502,39 
+Hp Wolf is 38,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 482,39 
+Hp Wolf is 4,00 
+hero attach Wolf
+Wolf is Dead

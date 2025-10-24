@@ -62,6 +62,7 @@ public class Game
         var npcs = GenerateNpc();
         var market = new Market();
         _logs.Log($"NPC in this round =  {npcs.Length}");
+        
         foreach (var npc in npcs)
         {
             _logs.Log(npc.Name);
@@ -88,6 +89,18 @@ public class Game
                 
                 var newWeapon = market.BuyWeapon(keyNumber, hero);
                 _logs.Log(newWeapon ? $"Bought was accepted" : $"Bought not accepted");
+            }
+            
+            _logs.Log("You wanna chose your weapon(Y/N)");
+            key = Console.ReadLine()?.ToLower();
+            if (key == "y")
+            {
+                _logs.Log(hero.PrintPlayerInventory());
+                
+                _logs.Log("Input number weapon, would like to chose");
+                var keyNumber = Convert.ToInt32(Console.ReadLine()) - 1;
+
+                _logs.Log(hero.GetCurrentWeapon(keyNumber) ? "The weapon was choose" : "The weapon was not choose");
             }
             
             var angnpc = (AngryNpc)npc;
