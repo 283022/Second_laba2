@@ -20,7 +20,7 @@ public sealed class Bandit : AngryNpc
         for (var i = 0; i < MeatStach.Length; i++)
         {
             MeatStach[i] = new Meat(Random.Shared.NextDouble()
-                                    * Random.Shared.Next(30, 60), Random.Shared.Next(10, 24));
+                                    * Random.Shared.Next(30, 60), Random.Shared.Next(10, 20));
         }
 
         return MeatStach;

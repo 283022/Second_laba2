@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Artem\\.nuget\\packages\\": {}
+    "C:\\Users\\bafar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Artem\\RiderProjects\\Second_laba\\Second_laba\\Second_laba.csproj",
+      "projectUniqueName": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
       "projectName": "Second_laba",
-      "projectPath": "C:\\Users\\Artem\\RiderProjects\\Second_laba\\Second_laba\\Second_laba.csproj",
-      "packagesPath": "C:\\Users\\Artem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Artem\\RiderProjects\\Second_laba\\Second_laba\\obj\\",
+      "projectPath": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
+      "packagesPath": "C:\\Users\\bafar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Artem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\bafar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,28 +1,55 @@
+using Second_laba.Items;
 using Second_laba.NPC.Angry;
 using Second_laba.NPC.Friend;
+using Second_laba.Weapon;
 
 namespace Second_laba.Players;
 
 public sealed class Archer(string name)
 {
+    private readonly Inventory _inventory = new Inventory(5);
+
     private double _level = 1;
     private double _health = 100.0;
     private int _expirience = 0;
+    private readonly double _basedamage = 1.5;
+    private double _goold = 0;
     public string Name { get; private set; } = name;
     public double HealthPoints => _health;
-
-    private double GenerateDamage()
+    private IWeapon? _currentWeapon;
+    public string PrintPlayerInventory()
     {
-        return _level * Random.Shared.Next(10, 25);
+        return _inventory.ToString();
     }
 
-    private void GetExperience(int exp)
+    
+    public void GetCurrentWeapon(int position)
     {
-        _expirience += exp;
-        for (var i = 0; i < _expirience % 30; i++)
+        _currentWeapon = _inventory.GetWeapon(position);
+    }
+
+    public void UseItemsFromInventory(int position)
+    {
+        _inventory.UseItem(position, this);
+    }
+
+    public void AddNewWeaponToInventory(IWeapon? weapon)
+    {
+        _inventory.AddNewWeapon(weapon);
+    }
+    
+    public void UseItem(Item item, double help)
+    {
+        _health = double.Max(100, _health + help);
+    }
+    
+    private double GenerateDamage()
+    {
+        if (_currentWeapon != null)
         {
-            _level += 0.2;
+            return _currentWeapon.GenerateDamage();
         }
+        return _basedamage * Random.Shared.Next(10, 25);
     }
 
     public void GetDamage(AngryNpc npc, double damage)
@@ -42,16 +69,22 @@ public sealed class Archer(string name)
         foreach (var loot in loots)
         {
             _health += double.Min(loot.FoodValue + _health, 100);
-            GetExperience(loot.ExpValues);
+            _goold += loot.GooldValue;
         }
     }
 
     public void Loot(FriednlyNpc npc)
     {
         _health += double.Min(npc.HealthFor + _health, 100);
-        GetExperience(npc.ExpFor);
+        _goold += npc.GooldFor;
     }
 
+    public double GooldPlayer()
+    {
+        return _goold;
+    }
+    
+    
     public bool IsDeath()
     {
         return _health <= 0;

@@ -60,6 +60,7 @@ public class Game
         _logs.Log("Starting game");
         var hero = new Archer("hero");
         var npcs = GenerateNpc();
+        var market = new Market();
         _logs.Log($"NPC in this round =  {npcs.Length}");
         foreach (var npc in npcs)
         {
@@ -70,7 +71,19 @@ public class Game
                 hero.Loot(friednly);
                 continue;
             }
-
+            
+            //Вывод магазина на экран
+            _logs.Log("You wanna buy some Weapon or Itmes?(Y/N)");
+            var key = Console.ReadKey();
+            if (key.Key == ConsoleKey.Y)
+            {
+                _logs.Log(market.ToString());
+                _logs.Log("Input number items, would like to buy");
+                var keyNumber = Convert.ToInt32(Console.ReadKey());
+                var newWeapon = market.BuyWeapon(keyNumber, hero.GooldPlayer());
+                hero.AddNewWeaponToInventory(newWeapon);
+            }
+            
             var angnpc = (AngryNpc)npc;
             while (!hero.IsDeath() && !angnpc.IsDead())
             {
