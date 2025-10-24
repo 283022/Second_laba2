@@ -19,7 +19,7 @@ public sealed class Wolf : AngryNpc
         for (var i = 0; i < MeatStach.Length; i++)
         {
             MeatStach[i] = new Meat(Random.Shared.NextDouble()
-                                    * Random.Shared.Next(5, 20), Random.Shared.Next(5, 12));
+                                    * Random.Shared.Next(5, 20), Random.Shared.Next(15, 20));
         }
 
         return MeatStach;

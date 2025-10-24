@@ -7,7 +7,7 @@ public class Market
 {
     private readonly List<WeaponData> _baseWeaponData;
     private readonly List<IWeapon> _generatedWeapons;
-    private readonly int _size = 4;
+    private const int Size = 4;
     public Market()
     {
         _generatedWeapons = [];
@@ -94,8 +94,10 @@ public class Market
 
         archer.AddNewWeaponToInventory(weaponCopy);
 
-        // Убираем купленное оружие из магазина
+        // Убираем купленное оружие из магазина и забираем это золото у пользователя
+        archer.GoldPlayerMinus(weapon.Cost ,this);
         _generatedWeapons.RemoveAt(actualPosition);
+        
         return true;
     }
 
@@ -107,7 +109,7 @@ public class Market
     {
         _generatedWeapons.Clear();
         
-        for (var i = 0; i < _size - _generatedWeapons.Count; i++)
+        for (var i = 0; i < Size - _generatedWeapons.Count; i++)
         {
             var randomBaseData = _baseWeaponData[Random.Shared.Next(_baseWeaponData.Count)];
             var weapon = WeaponFactory.CreateWeapon(randomBaseData);

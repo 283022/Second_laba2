@@ -14,7 +14,7 @@ public class Game
     //Генерируется волки и возвращается указатель на список из волков
     private Npc[] GenerateNpc()
     {
-        var npc = new Npc[Random.Shared.Next(2, 4)];
+        var npc = new Npc[Random.Shared.Next(4, 7)];
         for (var i = 0; i < npc.Length; i++)
         {
             var type = Random.Shared.Next(1, 6);

@@ -83,7 +83,11 @@ public sealed class Archer(string name)
     {
         return _gold;
     }
-    
+
+    public void GoldPlayerMinus(double gold, Market market)
+    {
+        _gold -= gold;
+    }
     
     public bool IsDeath()
     {
