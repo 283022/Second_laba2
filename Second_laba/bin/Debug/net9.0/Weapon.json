@@ -1,0 +1,27 @@
+[
+  {
+    "Type": "Bow",
+    "BaseName": "Лук",
+    "BaseCost": 100,
+    "BaseDamage": 10,
+    "DamageVariation": 5,
+    "CostVariation": 50
+  },
+  {
+    "Type": "Staff",
+    "BaseName": "Посох",
+    "BaseCost": 120,
+    "BaseDamage": 8,
+    "DamageVariation": 4,
+    "CostVariation": 40,
+    "SpecialChance": 0.2
+  },
+  {
+    "Type": "Sword",
+    "BaseName": "Меч",
+    "BaseCost": 150,
+    "BaseDamage": 12,
+    "DamageVariation": 6,
+    "CostVariation": 60
+  }
+]
