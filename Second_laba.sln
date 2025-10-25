@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second_laba", "Second_laba\Second_laba.csproj", "{F34B2F86-21F2-4BF8-9B0F-C026EBEF1080}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{F34B2F86-21F2-4BF8-9B0F-C026EBEF1080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
