@@ -43,3 +43,4 @@ C:\Users\guest\RiderProjects\Second_laba2\Second_laba\obj\Debug\net9.0\refint\Se
 C:\Users\guest\RiderProjects\Second_laba2\Second_laba\obj\Debug\net9.0\Second_laba.pdb
 C:\Users\guest\RiderProjects\Second_laba2\Second_laba\obj\Debug\net9.0\Second_laba.genruntimeconfig.cache
 C:\Users\guest\RiderProjects\Second_laba2\Second_laba\obj\Debug\net9.0\ref\Second_laba.dll
+C:\Users\bafar\RiderProjects\Second_laba2\Second_laba\bin\Debug\net9.0\Weapon.json

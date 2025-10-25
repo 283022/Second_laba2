@@ -2,7 +2,7 @@ using Second_laba.Logger.Interfaces;
 
 namespace Second_laba.Logger;
 
-public class LoggerFile: ILoggerWriter, ILoggerStorage
+public class LoggerFile : ILoggerWriter, ILoggerStorage
 {
     public LoggerFile(string startFilePath)
     {
@@ -12,19 +12,19 @@ public class LoggerFile: ILoggerWriter, ILoggerStorage
             GenerateFileByPath();
             return;
         }
+
         _filePath = startFilePath;
         FileFound();
     }
-    
+
     private string _filePath;
-   
+
     public void Log(string message)
     {
         if (string.IsNullOrEmpty(message)) return;
         if (!CheckExistance(_filePath))
             throw new FileNotFoundException($"File {_filePath} not found");
         File.AppendAllText(_filePath, message + Environment.NewLine);
-        
     }
 
     private void FileFound()
@@ -41,15 +41,17 @@ public class LoggerFile: ILoggerWriter, ILoggerStorage
             throw new FileNotFoundException($"File {_filePath} not found");
         }
     }
+
     public bool CheckExistance(string filePath)
     {
         return File.Exists(filePath);
-        
     }
+
     public void AddNewFilePath(string filePath)
     {
         _filePath = filePath;
     }
+
     public bool GenerateFileByPath()
     {
         if (!File.Exists(_filePath))

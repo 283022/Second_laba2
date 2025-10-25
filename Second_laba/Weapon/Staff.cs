@@ -14,6 +14,7 @@ public class Staff(string name, int cost, int baseDamage, double specialChance)
         {
             return _baseDamage + Random.Shared.Next(10, 40);
         }
-        return _baseDamage * Random.Shared.NextDouble() * 1.5 + _baseDamage;
+
+        return _baseDamage * Random.Shared.NextDouble() * 0.9 + _baseDamage;
     }
 }

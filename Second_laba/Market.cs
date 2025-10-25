@@ -1,3 +1,4 @@
+using System.Text.Json;
 using Second_laba.Players;
 using Second_laba.Weapon;
 
@@ -5,9 +6,10 @@ namespace Second_laba;
 
 public class Market
 {
-    private readonly List<WeaponData> _baseWeaponData;
+    private readonly List<WeaponData>? _baseWeaponData;
     private readonly List<IWeapon> _generatedWeapons;
     private const int Size = 4;
+
     public Market()
     {
         _generatedWeapons = [];
@@ -15,46 +17,33 @@ public class Market
         RefresherStock();
     }
 
+
     private List<WeaponData> CreateWeaponData()
     {
-        return new List<WeaponData>
+        var json = File.ReadAllText("Weapon.json");
+
+        // Настройки для десериализации
+        var options = new JsonSerializerOptions
         {
-            new WeaponData
-            {
-                Type = "Bow",
-                BaseName = "Лук",
-                BaseCost = 200,
-                BaseDamage = 10,
-                DamageVariation = 5,
-                CostVariation = 50
-            },
-            new WeaponData
-            {
-                Type = "Staff",
-                BaseName = "Посох",
-                BaseCost = 150,
-                BaseDamage = 8,
-                DamageVariation = 4,
-                CostVariation = 40,
-                SpecialChance = 0.2
-            },
-            new WeaponData
-            {
-                Type = "Sword",
-                BaseName = "Меч",
-                BaseCost = 250,
-                BaseDamage = 12,
-                DamageVariation = 6,
-                CostVariation = 60
-            }
+            PropertyNameCaseInsensitive = true
         };
+
+
+        var weapon = JsonSerializer.Deserialize<List<WeaponData>>(json, options);
+
+        if (weapon == null || weapon.Count == 0)
+        {
+            throw new Exception("JSON файл пуст или содержит ошибки");
+        }
+
+        return weapon;
     }
 
 
     public override string ToString()
     {
         var res = "Магазин оружия:\n";
-        
+
         for (var i = 0; i < _generatedWeapons.Count; i++)
         {
             var weapon = _generatedWeapons[i];
@@ -79,7 +68,7 @@ public class Market
         var money = archer.GoldPlayer();
 
         if (weapon.Cost > money) return false;
-        
+
         // Находим базовые данные для создания копии
         var baseType = weapon switch
         {
@@ -89,32 +78,34 @@ public class Market
             _ => "Bow"
         };
 
+        
+        if (_baseWeaponData == null) return false;
+        
         var baseData = _baseWeaponData.First(d => d.Type == baseType);
         var weaponCopy = WeaponFactory.CreateWeapon(baseData);
 
         archer.AddNewWeaponToInventory(weaponCopy);
 
         // Убираем купленное оружие из магазина и забираем это золото у пользователя
-        archer.GoldPlayerMinus(weapon.Cost ,this);
+        archer.GoldPlayerMinus(weapon.Cost, this);
         _generatedWeapons.RemoveAt(actualPosition);
         
         return true;
     }
 
     //Регенерация магазина
-    
-
-    //генерация оружия
     private void RefresherStock()
     {
-        _generatedWeapons.Clear();
         
-        for (var i = 0; i < Size - _generatedWeapons.Count; i++)
+        var difference = Size - _generatedWeapons.Count;
+        for (var i = 0; i < difference; i++)
         {
-            var randomBaseData = _baseWeaponData[Random.Shared.Next(_baseWeaponData.Count)];
+            var randomBaseData = _baseWeaponData?[Random.Shared.Next(_baseWeaponData.Count)];
+            if (randomBaseData == null) continue;
             var weapon = WeaponFactory.CreateWeapon(randomBaseData);
             _generatedWeapons.Add(weapon);
         }
-        
+
+       
     }
 }

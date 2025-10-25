@@ -1,4 +1,3 @@
-using Second_laba.Items;
 using Second_laba.NPC.Angry;
 using Second_laba.NPC.Friend;
 using Second_laba.Weapon;
@@ -7,24 +6,24 @@ namespace Second_laba.Players;
 
 public sealed class Archer(string name)
 {
-    private readonly Inventory _inventory = new Inventory(5);
-
-    private double _level = 1;
+    private readonly Inventory _inventory = new Inventory();
+    
     private double _health = 100.0;
     private readonly double _basedamage = 1.5;
     private double _gold;
     public string Name { get; private set; } = name;
     public double HealthPoints => _health;
     private IWeapon? _currentWeapon;
+
     public string PrintPlayerInventory()
     {
-        return _inventory.ToString();
+        return _inventory.ToString() != string.Empty? _inventory.ToString(): "inventory is empty";
     }
 
-    
+
     public bool GetCurrentWeapon(int position)
     {
-        _currentWeapon = _inventory.GetWeapon(position);
+        _currentWeapon = _inventory.GetWeapon(position - 1);
         return _currentWeapon != null;
     }
 
@@ -37,19 +36,17 @@ public sealed class Archer(string name)
     {
         _inventory.AddNewWeapon(weapon);
     }
+
     
-    public void UseItem(Item item, double help)
-    {
-        _health = double.Max(100, _health + help);
-    }
-    
+
     private double GenerateDamage()
     {
         if (_currentWeapon != null)
         {
             return _currentWeapon.GenerateDamage();
         }
-        return _basedamage * Random.Shared.Next(10, 25);
+
+        return _basedamage * Random.Shared.Next(15, 21);
     }
 
     public void GetDamage(AngryNpc npc, double damage)
@@ -68,14 +65,14 @@ public sealed class Archer(string name)
         var loots = npc.LootIt();
         foreach (var loot in loots)
         {
-            _health += double.Min(loot.FoodValue + _health, 100);
+            _health = double.Min(loot.FoodValue + _health, 100);
             _gold += loot.GooldValue;
         }
     }
 
     public void Loot(FriednlyNpc npc)
     {
-        _health += double.Min(npc.HealthFor + _health, 100);
+        _health = double.Min(npc.HealthFor + _health, 100);
         _gold += npc.GooldFor;
     }
 
@@ -88,7 +85,7 @@ public sealed class Archer(string name)
     {
         _gold -= gold;
     }
-    
+
     public bool IsDeath()
     {
         return _health <= 0;

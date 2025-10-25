@@ -11,4 +11,17 @@ public class AllLogers(ILoggerWriter[] list ): ILoggerWriter
             logWrite.Log(message);
         }
     }
+
+    public void LogWithOutConsole(string message)
+    {
+        foreach (var logWrite in list)
+        {
+            if (logWrite is LoggerConsole)
+            {
+                continue;
+            }
+            
+            logWrite.Log(message);
+        }
+    }
 }

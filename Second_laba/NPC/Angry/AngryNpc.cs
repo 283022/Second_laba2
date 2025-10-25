@@ -10,7 +10,7 @@ public abstract class AngryNpc : Npc
     public double HealthPoints => Health;
     protected readonly Meat[] MeatStach = new Meat[Random.Shared.Next(1, 10)];
 
-    public abstract  Meat[] LootIt();
+    public abstract Meat[] LootIt();
 
     protected abstract double GenerateDamage();
 

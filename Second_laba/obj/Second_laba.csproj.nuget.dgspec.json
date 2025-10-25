@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guest\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj": {}
+    "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guest\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj": {
+    "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guest\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
+        "projectUniqueName": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
         "projectName": "Second_laba",
-        "projectPath": "C:\\Users\\guest\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
-        "packagesPath": "C:\\Users\\guest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guest\\RiderProjects\\Second_laba2\\Second_laba\\obj\\",
+        "projectPath": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\Second_laba.csproj",
+        "packagesPath": "C:\\Users\\bafar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bafar\\RiderProjects\\Second_laba2\\Second_laba\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\guest\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\bafar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net9.0": {

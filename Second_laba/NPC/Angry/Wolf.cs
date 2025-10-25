@@ -27,6 +27,6 @@ public sealed class Wolf : AngryNpc
 
     protected override double GenerateDamage()
     {
-        return Random.Shared.Next(15,30);
+        return Random.Shared.Next(10, 15);
     }
 }

@@ -16,7 +16,8 @@ public sealed class Bandit : AngryNpc
         {
             throw new MethodAccessException("Метод может быть вызван для волка с 0 здоровьем");
         }
-
+        
+        
         for (var i = 0; i < MeatStach.Length; i++)
         {
             MeatStach[i] = new Meat(Random.Shared.NextDouble()
@@ -29,6 +30,6 @@ public sealed class Bandit : AngryNpc
 
     protected override double GenerateDamage()
     {
-        return Random.Shared.Next(20, 40);
+        return Random.Shared.Next(13, 20);
     }
 }

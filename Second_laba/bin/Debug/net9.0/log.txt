@@ -785,3 +785,1325 @@ Input number items, would like to buy
 -1
 Bought not accepted
 You wanna chose your weapon(Y/N)
+Starting game
+Starting game
+Starting game
+Starting game
+Starting game
+NPC in this round =  5
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 196 | 10 - урон
+2. Staff | 159 | 10 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 73,00 
+Hp Wolf is 73,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 53,00 
+Hp Wolf is 58,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 20,00 
+Hp Wolf is 38,50 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+hero is Dead
+Starting game
+NPC in this round =  4
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 190 | 6 - урон
+2. Sword | 289 | 14 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 75,00 
+Hp Bandit is 80,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 43,00 
+Hp Bandit is 64,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 12,00 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+hero is Dead
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 168 | 5 - урон
+2. Bow | 205 | 9 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 72,00 
+Hp Wolf is 71,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 53,00 
+Hp Wolf is 52,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 31,00 
+Hp Wolf is 31,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 10,00 
+Hp Wolf is 1,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 154 | 11 - урон
+2. Staff | 144 | 7 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 81,00 
+Hp Wolf is 67,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 59,00 
+Hp Wolf is 32,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 29,00 
+Hp Wolf is 8,50 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 195 | 15 - урон
+2. Sword | 231 | 15 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+inventory is empty
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 70,00 
+Hp Bandit is 64,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 36,00 
+Hp Bandit is 35,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 2,00 
+Hp Bandit is 8,50 
+hero attach Bandit
+Bandit is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 813,34 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 788,34 
+Hp Bandit is 67,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 759,34 
+Hp Bandit is 43,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 731,34 
+Hp Bandit is 28,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 713,34 
+Hp Bandit is 4,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 1013,34 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 981,34 
+Hp Wolf is 82,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 947,34 
+Hp Wolf is 67,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 924,34 
+Hp Wolf is 38,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 896,34 
+Hp Wolf is 13,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 1396,34 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 1377,34 
+Hp Bandit is 74,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 1361,34 
+Hp Bandit is 44,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 1340,34 
+Hp Bandit is 13,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 2240,34 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 2224,34 
+Hp Wolf is 65,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 2208,34 
+Hp Wolf is 44,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 2186,34 
+Hp Wolf is 23,50 
+hero attach Wolf
+Wolf is Dead
+hero is Win
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 169 | 12 - урон
+2. Staff | 130 | 8 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Starting game
+NPC in this round =  6
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 116 | 6 - урон
+2. Staff | 146 | 10 - урон
+
+your gold is 4
+Input number items, would like to buy(Enter to Exit)
+Starting game
+NPC in this round =  4
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  4
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 274 | 9 - урон
+2. Bow | 241 | 10 - урон
+3. Sword | 293 | 13 - урон
+4. Bow | 150 | 6 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 79,00 
+Hp Bandit is 79,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 46,00 
+Hp Bandit is 56,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 25,00 
+Hp Bandit is 26,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 4,00 
+Hp Bandit is 5,50 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 274 | 9 - урон
+2. Bow | 241 | 10 - урон
+3. Sword | 293 | 13 - урон
+4. Bow | 150 | 6 - урон
+
+your gold is 11
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 47,37 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 27,37 
+Hp Wolf is 71,50 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 74,00 
+Hp Wolf is 68,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 55,00 
+Hp Wolf is 49,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 23,00 
+Hp Wolf is 19,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 115 | 9 - урон
+2. Bow | 248 | 7 - урон
+3. Sword | 200 | 7 - урон
+4. Sword | 296 | 6 - урон
+
+your gold is 66
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 303,96 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 273,96 
+Hp Bandit is 65,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 252,96 
+Hp Bandit is 47,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 232,96 
+Hp Bandit is 20,50 
+hero attach Bandit
+Bandit is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 115 | 9 - урон
+2. Bow | 248 | 7 - урон
+3. Sword | 200 | 7 - урон
+4. Sword | 296 | 6 - урон
+
+your gold is 171
+Input number items, would like to buy(Enter to Exit)
+1
+Bought was accepted
+You wanna chose your weapon(Y/N)
+inventory is empty
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 1032,96 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 1003,96 
+Hp Bandit is 83,97 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 985,96 
+Hp Bandit is 59,65 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 953,96 
+Hp Bandit is 48,60 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 930,96 
+Hp Bandit is 12,60 
+hero attach Bandit
+Bandit is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 235 | 7 - урон
+2. Sword | 190 | 17 - урон
+3. Staff | 130 | 7 - урон
+4. Sword | 197 | 13 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 76,00 
+Hp Bandit is 79,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 42,00 
+Hp Bandit is 55,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 17,00 
+Hp Bandit is 32,50 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 75,00 
+Hp Bandit is 79,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 54,00 
+Hp Bandit is 61,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 29,00 
+Hp Bandit is 43,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 10,00 
+Hp Bandit is 25,00 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  4
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 80,00 
+Hp Wolf is 70,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 62,00 
+Hp Wolf is 52,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 35,00 
+Hp Wolf is 32,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 3,00 
+Hp Wolf is 5,50 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 144 | 8 - урон
+2. Staff | 128 | 4 - урон
+3. Bow | 215 | 15 - урон
+4. Staff | 138 | 9 - урон
+
+your gold is 98
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 52,73 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 23,73 
+Hp Wolf is 85,00 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  4
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 79,00 
+Hp Bandit is 77,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 56,00 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 41,00 
+Hp Bandit is 26,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 26,00 
+Hp Bandit is 7,00 
+hero attach Bandit
+Bandit is Dead
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 178 | 14 - урон
+2. Bow | 250 | 5 - урон
+3. Bow | 228 | 11 - урон
+4. Bow | 225 | 13 - урон
+
+your gold is 135
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 81,00 
+Hp Wolf is 85,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 50,00 
+Hp Wolf is 59,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 32,00 
+Hp Wolf is 29,50 
+hero attach Wolf
+Wolf is Dead
+Villager
+hero is Win
+Starting game
+NPC in this round =  4
+Villager
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 140 | 4 - урон
+2. Staff | 151 | 7 - урон
+3. Sword | 198 | 6 - урон
+4. Sword | 233 | 14 - урон
+
+your gold is 7
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+y
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 73,00 
+Hp Wolf is 71,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 58,00 
+Hp Wolf is 47,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 38,00 
+Hp Wolf is 16,00 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 140 | 4 - урон
+2. Staff | 151 | 7 - урон
+3. Sword | 198 | 6 - урон
+4. Sword | 233 | 14 - урон
+
+your gold is 52
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+y
+Input number weapon, would like to chose(Enter to Exit)
+Hp hero is 57,14 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 23,14 
+Hp Wolf is 68,50 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 70,00 
+Hp Wolf is 74,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 55,00 
+Hp Wolf is 38,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 27,00 
+Hp Wolf is 10,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Staff | 155 | 7 - урон
+2. Sword | 199 | 7 - урон
+3. Sword | 151 | 15 - урон
+4. Bow | 142 | 15 - урон
+
+your gold is 139
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 76,92 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 50,92 
+Hp Bandit is 73,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 20,92 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Villager
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 147 | 11 - урон
+2. Staff | 156 | 10 - урон
+3. Staff | 122 | 10 - урон
+4. Staff | 136 | 9 - урон
+
+your gold is 5
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 75,00 
+Hp Bandit is 82,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 56,00 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 30,00 
+Hp Bandit is 22,00 
+hero attach Bandit
+Bandit is Dead
+Villager
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 147 | 11 - урон
+2. Staff | 156 | 10 - урон
+3. Staff | 122 | 10 - урон
+4. Staff | 136 | 9 - урон
+
+your gold is 97
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 68,00 
+Hp Bandit is 82,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 53,00 
+Hp Bandit is 53,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 31,00 
+Hp Bandit is 37,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 14,00 
+Hp Bandit is 20,50 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 147 | 11 - урон
+2. Staff | 156 | 10 - урон
+3. Staff | 122 | 10 - урон
+4. Staff | 136 | 9 - урон
+
+your gold is 139
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 86,11 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 69,11 
+Hp Wolf is 73,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 38,11 
+Hp Wolf is 38,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 14,11 
+Hp Wolf is 2,50 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 147 | 11 - урон
+2. Staff | 156 | 10 - урон
+3. Staff | 122 | 10 - урон
+4. Staff | 136 | 9 - урон
+
+your gold is 173
+Input number items, would like to buy(Enter to Exit)
+2
+Bought was accepted
+You wanna chose your weapon(Y/N)
+inventory is empty
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 23,15 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Villager
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 69,00 
+Hp Wolf is 76,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 53,00 
+Hp Wolf is 43,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 27,00 
+Hp Wolf is 26,50 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 78,00 
+Hp Bandit is 67,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 57,00 
+Hp Bandit is 41,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 36,00 
+Hp Bandit is 25,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 3,00 
+Hp Bandit is 7,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 150 | 9 - урон
+2. Staff | 140 | 10 - урон
+3. Bow | 132 | 12 - урон
+4. Bow | 78 | 5 - урон
+
+your gold is 108
+Input number items, would like to buy(Enter to Exit)
+4
+Bought was accepted
+You wanna chose your weapon(Y/N)
+Bow,
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 79,00 
+Hp Wolf is 82,38 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 61,00 
+Hp Wolf is 65,20 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 27,00 
+Hp Wolf is 52,86 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 5,00 
+Hp Wolf is 43,09 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  4
+Villager
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 81,00 
+Hp Wolf is 80,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 63,00 
+Hp Wolf is 65,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 46,00 
+Hp Wolf is 49,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 19,00 
+Hp Wolf is 32,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 3,00 
+Hp Wolf is 19,00 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 72,00 
+Hp Bandit is 79,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 42,00 
+Hp Bandit is 64,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 17,00 
+Hp Bandit is 50,50 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 74,00 
+Hp Bandit is 88,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 53,00 
+Hp Bandit is 76,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 37,00 
+Hp Bandit is 64,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 7,00 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 77,00 
+Hp Wolf is 77,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 54,00 
+Hp Wolf is 53,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 26,00 
+Hp Wolf is 31,00 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 80,00 
+Hp Wolf is 80,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 61,00 
+Hp Wolf is 61,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 32,00 
+Hp Wolf is 37,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 8,00 
+Hp Wolf is 16,00 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 120 | 11 - урон
+2. Bow | 137 | 14 - урон
+3. Bow | 70 | 13 - урон
+4. Staff | 102 | 11 - урон
+
+your gold is 132
+Input number items, would like to buy(Enter to Exit)
+1
+Bought was accepted
+You wanna chose your weapon(Y/N)
+Sword,
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 73,70 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 58,70 
+Hp Wolf is 65,16 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 26,70 
+Hp Wolf is 38,90 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 68,00 
+Hp Wolf is 73,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 38,00 
+Hp Wolf is 49,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 13,00 
+Hp Wolf is 25,00 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 79,00 
+Hp Wolf is 70,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 58,00 
+Hp Wolf is 40,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 34,00 
+Hp Wolf is 17,50 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 85 | 6 - урон
+2. Staff | 156 | 11 - урон
+3. Sword | 182 | 6 - урон
+4. Staff | 159 | 9 - урон
+
+your gold is 33
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 45,84 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 26,84 
+Hp Wolf is 70,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 1,84 
+Hp Wolf is 47,50 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
+Starting game
+NPC in this round =  4
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 114 | 9 - урон
+2. Bow | 129 | 11 - урон
+3. Staff | 118 | 9 - урон
+4. Sword | 139 | 10 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 76,00 
+Hp Bandit is 76,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 49,00 
+Hp Bandit is 49,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 19,00 
+Hp Bandit is 26,50 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 201 | 16 - урон
+2. Staff | 133 | 11 - урон
+3. Bow | 72 | 11 - урон
+4. Sword | 132 | 8 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 74,00 
+Hp Bandit is 73,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 48,00 
+Hp Bandit is 46,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 25,00 
+Hp Bandit is 23,50 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 201 | 16 - урон
+2. Staff | 133 | 11 - урон
+3. Bow | 72 | 11 - урон
+4. Sword | 132 | 8 - урон
+
+your gold is 128
+Input number items, would like to buy(Enter to Exit)
+4
+Bought not accepted
+You wanna chose your weapon(Y/N)
+Inventory: 
+y
+Input number weapon, would like to chose(Enter to Exit)
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 169 | 12 - урон
+2. Staff | 80 | 12 - урон
+3. Bow | 139 | 12 - урон
+4. Sword | 129 | 15 - урон
+
+your gold is 0
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 84,00 
+Hp Bandit is 70,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 67,00 
+Hp Bandit is 47,50 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 34,00 
+Hp Bandit is 17,50 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 169 | 12 - урон
+2. Staff | 80 | 12 - урон
+3. Bow | 139 | 12 - урон
+4. Sword | 129 | 15 - урон
+
+your gold is 55
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 70,00 
+Hp Wolf is 71,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 55,00 
+Hp Wolf is 43,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 23,00 
+Hp Wolf is 13,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Sword | 169 | 12 - урон
+2. Staff | 80 | 12 - урон
+3. Bow | 139 | 12 - урон
+4. Sword | 129 | 15 - урон
+
+your gold is 108
+Input number items, would like to buy(Enter to Exit)
+2
+Bought was accepted
+You wanna chose your weapon(Y/N)
+|Staff|
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 31,27 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Hp hero is 8,27 
+Hp Bandit is 94,34 
+hero attach Bandit
+Bandit attach hero
+hero is Dead
+Starting game
+NPC in this round =  5
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 82,00 
+Hp Wolf is 70,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 57,00 
+Hp Wolf is 44,50 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 23,00 
+Hp Wolf is 17,50 
+hero attach Wolf
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Bow | 65 | 13 - урон
+2. Staff | 107 | 10 - урон
+3. Staff | 143 | 4 - урон
+4. Sword | 171 | 10 - урон
+
+your gold is 91
+Input number items, would like to buy(Enter to Exit)
+1
+Bought was accepted
+You wanna chose your weapon(Y/N)
+|Bow|
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hp hero is 40,15 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Hp hero is 19,15 
+Hp Wolf is 78,03 
+hero attach Wolf
+Wolf attach hero
+hero is Dead
