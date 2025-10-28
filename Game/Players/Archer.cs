@@ -14,7 +14,13 @@ public sealed class Archer(string name)
     public string Name { get; private set; } = name;
     public double HealthPoints => _health;
     private IWeapon? _currentWeapon;
+    //в 4 лабе
+    private (double x, double y) CurrentCoordinates { get; set; } = (Random.Shared.Next(0,60), Random.Shared.Next(0,60));
 
+    //в 4 лабе
+    public static double DamageInfo { get; private set; }
+    public static int Kills { get; private set; } 
+    
     public string PrintPlayerInventory()
     {
         return _inventory.ToString() != string.Empty? _inventory.ToString(): "inventory is empty";
@@ -26,11 +32,8 @@ public sealed class Archer(string name)
         _currentWeapon = _inventory.GetWeapon(position - 1);
         return _currentWeapon != null;
     }
-
-    /*public void UseItemsFromInventory(int position)
-    {
-        _inventory.UseItem(position, this);
-    }*/
+    
+    
 
     public void AddNewWeaponToInventory(IWeapon? weapon)
     {
@@ -39,14 +42,23 @@ public sealed class Archer(string name)
 
     
 
-    private double GenerateDamage()
+    private double GenerateDamage(double distance) //в 4 лабе distance и все, что с ней связано
     {
+        double damage;
         if (_currentWeapon != null)
         {
-            return _currentWeapon.GenerateDamage();
+            if (_currentWeapon.Distance >= distance) {
+                damage = _currentWeapon.GenerateDamage();
+                //в 4 лабе 
+                DamageInfo += damage;
+                return damage;
+            }
         }
 
-        return _basedamage * Random.Shared.Next(15, 21);
+        damage = _basedamage * Random.Shared.Next(15, 21);
+        //в 4 лабе
+        DamageInfo += damage;
+        return damage;
     }
 
     public void GetDamage(AngryNpc npc, double damage)
@@ -56,8 +68,15 @@ public sealed class Archer(string name)
 
     public void Attach(AngryNpc npc)
     {
-        var damage = GenerateDamage();
+        //в 4 лабе distance
+        var distance = AngryNpc.AggressionArea(npc, CurrentCoordinates.x,CurrentCoordinates.y);
+        var damage = GenerateDamage(distance);
         npc.GetDamage(this, damage);
+        //в 4 лабе
+        if (npc.IsDead())
+        {
+            Kills++;
+        }
     }
 
     public void Loot(AngryNpc npc)

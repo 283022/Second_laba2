@@ -88,15 +88,26 @@ public class Market
         var difference = Size - _generatedWeapons.Count;
         for (var i = 0; i < difference; i++)
         {
+            
             var randomBaseData = _baseWeaponData[Random.Shared.Next(_baseWeaponData.Count)];
+            var weaponCopy = new WeaponData
+            {
+                Type = randomBaseData.Type,
+                BaseName = randomBaseData.BaseName,
+                BaseDamage = randomBaseData.BaseDamage,
+                BaseCost = randomBaseData.BaseCost,
+                DamageVariation = randomBaseData.DamageVariation,
+                CostVariation = randomBaseData.CostVariation
+            };
+            
+            weaponCopy.BaseDamage += Random.Shared.Next(-weaponCopy.DamageVariation,
+                weaponCopy.DamageVariation + 1 ) ;
 
-            randomBaseData.BaseDamage += Random.Shared.Next(-randomBaseData.DamageVariation,
-                randomBaseData.DamageVariation + 1);
+            weaponCopy.BaseCost += Random.Shared.Next(-weaponCopy.CostVariation,
+                weaponCopy.CostVariation + 1);
 
-            randomBaseData.BaseCost += Random.Shared.Next(-randomBaseData.CostVariation,
-                randomBaseData.CostVariation + 1);
-
-            _generatedWeapons.Add(randomBaseData);
+          
+            _generatedWeapons.Add(weaponCopy);
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Game.exe
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Weapon.json
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Game.deps.json
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Game.runtimeconfig.json
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Game.dll
+C:\Users\bafar\RiderProjects\Second_laba2\Game\bin\Debug\net9.0\Game.pdb
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.AssemblyInfoInputs.cache
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.AssemblyInfo.cs
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.sourcelink.json
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.dll
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\refint\Game.dll
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.pdb
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\Game.genruntimeconfig.cache
+C:\Users\bafar\RiderProjects\Second_laba2\Game\obj\Debug\net9.0\ref\Game.dll

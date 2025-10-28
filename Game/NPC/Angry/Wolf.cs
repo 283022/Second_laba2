@@ -1,3 +1,4 @@
+using Game.Players;
 using Game.Struct;
 
 namespace Game.NPC.Angry;
@@ -25,6 +26,12 @@ public sealed class Wolf : AngryNpc
         return MeatStach;
     }
 
+    public override void Attach(Archer player)
+    {
+        var damage = GenerateDamage();
+        player.GetDamage(this, damage);
+    }
+    
     protected override double GenerateDamage()
     {
         return Random.Shared.Next(10, 15);

@@ -12,9 +12,10 @@ public static class WeaponFactory
         
         return baseData.Type.ToLower() switch
         {
-            "bow" => new Bow("Bow", cost, damage),
-            "staff" => new Staff("Staff", cost, damage, baseData.SpecialChance),
-            "sword" => new Sword("Sword", cost, damage),
+            //в 4 лабе distance
+            "bow" => new Bow("Bow", cost, damage, baseData.Distance),
+            "staff" => new Staff("Staff", cost, damage, baseData.SpecialChance, baseData.Distance),
+            "sword" => new Sword("Sword", cost, damage, baseData.Distance),
             _ => throw new ArgumentException($"Unknown weapon type: {baseData.Type}")
         };
     }
