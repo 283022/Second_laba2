@@ -120,6 +120,11 @@ public class CreateGame
             if (hero.IsDeath()) break;
         }
 
+        //ЭТО В 4 Лабе
+        _logs.Log($"Damage by Players is {Archer.DamageInfo:F2} ");
+        _logs.Log($"Kills by Players is {Archer.Kills} ");
+        
+        
         _logs.Log(hero.IsDeath() ? $"{hero.Name} is Dead" : $"{hero.Name} is Win");
     }
 }

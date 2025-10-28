@@ -5,7 +5,8 @@
     "BaseCost": 100,
     "BaseDamage": 10,
     "DamageVariation": 5,
-    "CostVariation": 50
+    "CostVariation": 50,
+    "Distance": 2  
   },
   {
     "Type": "Staff",
@@ -14,7 +15,8 @@
     "BaseDamage": 8,
     "DamageVariation": 4,
     "CostVariation": 40,
-    "SpecialChance": 0.2
+    "SpecialChance": 0.2,
+    "Distance": 1
   },
   {
     "Type": "Sword",
@@ -22,6 +24,7 @@
     "BaseCost": 150,
     "BaseDamage": 12,
     "DamageVariation": 6,
-    "CostVariation": 60
+    "CostVariation": 60,
+    "Distance": 0
   }
 ]

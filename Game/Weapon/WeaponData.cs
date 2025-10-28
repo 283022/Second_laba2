@@ -7,6 +7,10 @@ public class WeaponData
     public int BaseCost { get; set; }
     public int BaseDamage { get; set; }
     public int DamageVariation { get; set; }
+    
     public int CostVariation { get; set; }
     public double SpecialChance { get; set; }
+    //в 4 лабе distance
+    public double Distance { get; set; }
+    
 }

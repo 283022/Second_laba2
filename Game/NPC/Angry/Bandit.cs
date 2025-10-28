@@ -1,3 +1,4 @@
+using Game.Players;
 using Game.Struct;
 
 namespace Game.NPC.Angry;
@@ -9,6 +10,12 @@ public sealed class Bandit : AngryNpc
         Name = "Bandit";
     }
 
+
+    public override void Attach(Archer player)
+    {
+        var damage = GenerateDamage();
+        player.GetDamage(this, damage);
+    }
 
     public override Meat[] LootIt()
     {
