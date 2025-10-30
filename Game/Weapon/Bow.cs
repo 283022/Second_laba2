@@ -1,9 +1,9 @@
 namespace Game.Weapon;
 
-public class Bow(string name, int cost, int baseDamage, double distance) : IWeapon
+public class Bow(string name, int cost, int baseDamage, int distance) : IWeapon
 {
     //в 4 лабе distance
-    public double Distance { get; } = distance;
+    public int Distance { get; } = distance;
     private readonly int _baseDamage = baseDamage;
     public string Name { get; } = name;
     public int Cost { get; } = cost;

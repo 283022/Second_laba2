@@ -69,13 +69,14 @@ public class CreateGame
     }
 
     //боевка между агрессивным нпс и героем
-    private void Fighting(AngryNpc npc, Archer hero)
+    private void Fighting(AngryNpc npc, Archer hero, int distance)
     {
         _logs.Log($"Hp hero is {hero.HealthPoints:F2} ");
         _logs.Log($"Hp {npc.Name} is {npc.HealthPoints:F2} ");
 
         _logs.Log($"{hero.Name} attach {npc.Name}");
-        hero.Attach(npc);
+       
+        hero.Attach(npc, distance: distance);
 
         if (npc.IsDead())
         {
@@ -85,7 +86,7 @@ public class CreateGame
         else
         {
             _logs.Log($"{npc.Name} attach {hero.Name}");
-            npc.Attach(hero);
+            npc.Attach(hero,distance);
         }
     }
 
@@ -112,9 +113,17 @@ public class CreateGame
             PrintInventoryHero(hero);
 
             var angrynpc = (AngryNpc)npc;
+            var distance = AngryNpc.AggressionArea(angrynpc, hero.CurrentCoordinates.x,hero.CurrentCoordinates.y);
+
+            _logs.Log($"Hero can attack at {hero.Distance} distance or less");
+            _logs.Log($"{angrynpc.Name} can attack at {angrynpc.Distance} or less");
+
             while (!hero.IsDeath() && !angrynpc.IsDead())
             {
-                Fighting(angrynpc, hero);
+                _logs.Log($"Distance now is {distance}");
+                Fighting(angrynpc, hero, distance);
+                distance -= 1;
+                distance = int.Max(distance, 0);
             }
 
             if (hero.IsDeath()) break;

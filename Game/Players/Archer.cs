@@ -11,11 +11,12 @@ public sealed class Archer(string name)
     private double _health = 100.0;
     private readonly double _basedamage = 1.5;
     private double _gold;
+    public int Distance { get; private set; }
     public string Name { get; private set; } = name;
     public double HealthPoints => _health;
     private IWeapon? _currentWeapon;
     //в 4 лабе
-    private (double x, double y) CurrentCoordinates { get; set; } = (Random.Shared.Next(0,60), Random.Shared.Next(0,60));
+    public (double x, double y) CurrentCoordinates { get; set; } = (Random.Shared.Next(0,60), Random.Shared.Next(0,60));
 
     //в 4 лабе
     public static double DamageInfo { get; private set; }
@@ -29,6 +30,7 @@ public sealed class Archer(string name)
 
     public bool GetCurrentWeapon(int position)
     {
+        if (_currentWeapon != null) Distance = _currentWeapon.Distance;
         _currentWeapon = _inventory.GetWeapon(position - 1);
         return _currentWeapon != null;
     }
@@ -55,10 +57,13 @@ public sealed class Archer(string name)
             }
         }
 
+        if (distance != 0) return 0;
+        
         damage = _basedamage * Random.Shared.Next(15, 21);
         //в 4 лабе
         DamageInfo += damage;
         return damage;
+
     }
 
     public void GetDamage(AngryNpc npc, double damage)
@@ -66,10 +71,9 @@ public sealed class Archer(string name)
         _health = double.Max(0, _health - damage);
     }
 
-    public void Attach(AngryNpc npc)
+    public void Attach(AngryNpc npc,int distance)
     {
         //в 4 лабе distance
-        var distance = AngryNpc.AggressionArea(npc, CurrentCoordinates.x,CurrentCoordinates.y);
         var damage = GenerateDamage(distance);
         npc.GetDamage(this, damage);
         //в 4 лабе

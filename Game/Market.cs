@@ -45,6 +45,7 @@ public class Market
 
     public override string ToString()
     {
+        RefresherStock();
         var res = "Магазин оружия:\n";
 
         for (var i = 0; i < _generatedWeapons.Count; i++)

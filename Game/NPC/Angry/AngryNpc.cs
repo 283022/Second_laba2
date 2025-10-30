@@ -9,15 +9,16 @@ public abstract class AngryNpc : Npc
     public int Level { get; protected set; } = 1;
     public double HealthPoints => Health;
     protected readonly Meat[] MeatStach = new Meat[Random.Shared.Next(1, 10)];
-    
+    public int Distance { get; protected set; }
     //в 4 лабе координаты
     public (double x, double y) CurrentCoordinates { get; set; } = (Random.Shared.Next(0,60), Random.Shared.Next(0,60));
     public abstract Meat[] LootIt();
 
     protected abstract double GenerateDamage();
 
-    public virtual void Attach(Archer player)
+    public virtual void Attach(Archer player, int distance)
     {
+        if (distance > Distance) return;
         double damage = Random.Shared.Next(15, 35);
         player.GetDamage(this, damage);
     }

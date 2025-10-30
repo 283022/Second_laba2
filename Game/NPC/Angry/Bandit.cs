@@ -8,11 +8,13 @@ public sealed class Bandit : AngryNpc
     public Bandit()
     {
         Name = "Bandit";
+        Distance = 2;
     }
 
 
-    public override void Attach(Archer player)
+    public override void Attach(Archer player, int distance)
     {
+        if (distance > Distance) return;
         var damage = GenerateDamage();
         player.GetDamage(this, damage);
     }

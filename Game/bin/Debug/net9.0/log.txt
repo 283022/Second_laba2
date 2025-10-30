@@ -2794,3 +2794,304 @@ Wolf attach hero
 Damage by Players is 165,41718958756667 
 Kills by Players is 1 
 hero is Dead
+Starting game
+NPC in this round =  4
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hero can attack at this 0
+Bandit can attack at this 2
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Distance = 0
+Bandit attach hero
+Hero can attack at this 0
+Bandit can attack at this 2
+Hp hero is 81,00 
+Hp Bandit is 73,00 
+hero attach Bandit
+Distance = 0
+Bandit attach hero
+Hero can attack at this 0
+Bandit can attack at this 2
+Hp hero is 62,00 
+Hp Bandit is 43,00 
+hero attach Bandit
+Distance = 0
+Bandit attach hero
+Hero can attack at this 0
+Bandit can attack at this 2
+Hp hero is 47,00 
+Hp Bandit is 17,50 
+hero attach Bandit
+Distance = 0
+Bandit is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  5
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hero can attack at this 0
+Wolf can attack at this 0
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Distance = 0
+Wolf attach hero
+Hp hero is 88,00 
+Hp Wolf is 73,00 
+hero attach Wolf
+Distance = 0
+Wolf attach hero
+Hp hero is 75,00 
+Hp Wolf is 47,50 
+hero attach Wolf
+Distance = 0
+Wolf attach hero
+Hp hero is 62,00 
+Hp Wolf is 23,50 
+hero attach Wolf
+Distance = 0
+Wolf is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  4
+Villager
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hero can attack at this 0
+Bandit can attack at this 2
+Distance now is 0
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 83,00 
+Hp Bandit is 77,50 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 65,00 
+Hp Bandit is 55,00 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 47,00 
+Hp Bandit is 26,50 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 33,00 
+Hp Bandit is 4,00 
+hero attach Bandit
+Bandit is Dead
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Starting game
+NPC in this round =  6
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+You wanna chose your weapon(Y/N)
+Hero can attack at 0 distance or less
+Wolf can attack at 0 or less
+Distance now is 1
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 100,00 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 86,00 
+Hp Wolf is 77,50 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 73,00 
+Hp Wolf is 53,50 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 59,00 
+Hp Wolf is 26,50 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 46,00 
+Hp Wolf is 1,00 
+hero attach Wolf
+Wolf is Dead
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Посох | 158 | 8 - урон
+2. Лук | 120 | 11 - урон
+3. Посох | 154 | 8 - урон
+4. Посох | 127 | 4 - урон
+
+your gold is 148
+Input number items, would like to buy(Enter to Exit)
+2
+Bought was accepted
+You wanna chose your weapon(Y/N)
+|Bow|
+y
+Input number weapon, would like to chose(Enter to Exit)
+1
+The weapon was choose
+Hero can attack at 0 distance or less
+Bandit can attack at 2 or less
+Distance now is 0
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 83,00 
+Hp Bandit is 82,02 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 67,00 
+Hp Bandit is 65,71 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 52,00 
+Hp Bandit is 42,66 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 35,00 
+Hp Bandit is 18,41 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 21,00 
+Hp Bandit is 3,27 
+hero attach Bandit
+Bandit is Dead
+Villager
+Bandit
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Посох | 158 | 8 - урон
+2. Посох | 154 | 8 - урон
+3. Посох | 127 | 4 - урон
+
+your gold is 132
+Input number items, would like to buy(Enter to Exit)
+You wanna chose your weapon(Y/N)
+Hero can attack at 0 distance or less
+Bandit can attack at 2 or less
+Distance now is 1
+Hp hero is 100,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 86,00 
+Hp Bandit is 100,00 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 70,00 
+Hp Bandit is 76,55 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 54,00 
+Hp Bandit is 53,51 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 38,00 
+Hp Bandit is 32,70 
+hero attach Bandit
+Bandit attach hero
+Distance now is 0
+Hp hero is 20,00 
+Hp Bandit is 15,82 
+hero attach Bandit
+Bandit is Dead
+Villager
+Wolf
+You wanna buy some Weapon or Items?(Y/N)
+Магазин оружия:
+1. Посох | 158 | 8 - урон
+2. Посох | 154 | 8 - урон
+3. Посох | 127 | 4 - урон
+
+your gold is 180
+Input number items, would like to buy(Enter to Exit)
+1
+Bought was accepted
+You wanna chose your weapon(Y/N)
+|Bow||Staff|
+y
+Input number weapon, would like to chose(Enter to Exit)
+2
+The weapon was choose
+Hero can attack at 0 distance or less
+Wolf can attack at 0 or less
+Distance now is 1
+Hp hero is 92,57 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 92,57 
+Hp Wolf is 100,00 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 81,57 
+Hp Wolf is 90,77 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 70,57 
+Hp Wolf is 83,38 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 57,57 
+Hp Wolf is 74,31 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 45,57 
+Hp Wolf is 65,01 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 32,57 
+Hp Wolf is 58,05 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 19,57 
+Hp Wolf is 51,46 
+hero attach Wolf
+Wolf attach hero
+Distance now is 0
+Hp hero is 7,57 
+Hp Wolf is 42,06 
+hero attach Wolf
+Wolf attach hero
+Damage by Players is 403,86 
+Kills by Players is 3 
+hero is Dead
+Starting game
+NPC in this round =  6
+Bandit
+You wanna buy some Weapon or Items?(Y/N)

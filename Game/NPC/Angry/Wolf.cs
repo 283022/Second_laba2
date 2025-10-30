@@ -5,9 +5,12 @@ namespace Game.NPC.Angry;
 
 public sealed class Wolf : AngryNpc
 {
+    
+
     public Wolf()
     {
         Name = "Wolf";
+        Distance = 0;
     }
 
     public override Meat[] LootIt()
@@ -26,12 +29,14 @@ public sealed class Wolf : AngryNpc
         return MeatStach;
     }
 
-    public override void Attach(Archer player)
+    public override void Attach(Archer player, int distance)
     {
+        if (distance > Distance) return;
+
         var damage = GenerateDamage();
         player.GetDamage(this, damage);
     }
-    
+
     protected override double GenerateDamage()
     {
         return Random.Shared.Next(10, 15);

@@ -11,6 +11,6 @@ public class WeaponData
     public int CostVariation { get; set; }
     public double SpecialChance { get; set; }
     //в 4 лабе distance
-    public double Distance { get; set; }
+    public int Distance { get; set; }
     
 }
